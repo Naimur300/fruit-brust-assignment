@@ -161,7 +161,7 @@
                 </div>
             </div>
             <div id="slide2" class="carousel-item relative w-full bg-black">
-                <div class="hero" style="background-image: url('./images/banner2.png');">
+                <div class="hero md:min-h-[calc(100vh-112px)]" style="background-image: url('./images/banner2.png');">
                     <div class="hero-overlay bg-opacity-60 w-full"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-2xl">
@@ -201,7 +201,7 @@
                 </div>
             </div>
             <div id="slide3" class="carousel-item relative w-full bg-black">
-                <div class="hero" style="background-image: url('./images/banner3.png');">
+                <div class="hero md:min-h-[calc(100vh-112px)]" style="background-image: url('./images/banner3.png');">
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-2xl">
@@ -242,7 +242,7 @@
                 </div>
             </div>
             <div id="slide4" class="carousel-item relative  w-full bg-black">
-                <div class="hero" style="background-image: url('./images/banner4.png');">
+                <div class="hero md:min-h-[calc(100vh-112px)]" style="background-image: url('./images/banner4.png');">
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-2xl">
@@ -286,14 +286,12 @@
     <!-- main part start  -->
     <main class="mt-32 max-w-7xl mx-auto">
         <!-- deals of the day part  -->
-        <section>
-            <div class="flex justify-between items-center mb-14">
+        <section class="mb-24">
+            <div class="flex flex-col md:flex-row justify-center md:justify-between items-center mb-14">
                 <div>
 
-                    <h3 class="text-5xl font-extrabold mb-6">Deal of the day</h3>
-                    <p class="text-base font-medium">Contrary to popular belief, is not simply random text. It has roots
-                        in
-                        a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <h3 class="text-4xl md:text-5xl text-center font-extrabold mb-6">Deal of the day</h3>
+                    <p class="text-xs  md:text-base font-medium text-center mb-5 md:mb-0">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
 
                 </div>
 
@@ -327,13 +325,13 @@
 
             <!-- fruit card part  -->
 
-            <div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
                 <!-- fruit card one  -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card  bg-base-100 shadow-xl">
                     <figure><img src="./images/fruit6.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                        <h3 class=" text-2xl font-bold text-center mb-12">12.90$ - 18.85$</h3>
+                        <h3 class=" text-2xl font-bold text-center mb-9">12.90$ - 18.85$</h3>
                         <p class="text-base font-medium text-center mb-6">Apple</p>
                         <div class="rating rating-lg rating-half flex justify-center mb-8">
                             <input type="radio" name="rating-10" class="rating-hidden" />
@@ -356,10 +354,10 @@
                 </div>
 
                 <!-- fruit card two  -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card  bg-base-100 shadow-xl">
                     <figure><img src="./images/fruit7.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                        <h3 class=" text-2xl font-bold text-center mb-12">12.90$ - 18.85$</h3>
+                        <h3 class=" text-2xl font-bold text-center mb-9">12.90$ - 18.85$</h3>
                         <p class="text-base font-medium text-center mb-6">Orange</p>
                         <div class="rating rating-lg rating-half flex justify-center mb-8">
                             <input type="radio" name="rating-10" class="rating-hidden" />
@@ -382,10 +380,98 @@
                 </div>
 
                 <!-- fruit card three  -->
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure><img src="./images/fruit8.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h3 class=" text-2xl font-bold text-center mb-9">12.90$ - 18.85$</h3>
+                        <p class="text-base font-medium text-center mb-6">Apple</p>
+                        <div class="rating rating-lg rating-half flex justify-center mb-8">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                                checked />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        </div>
 
+                        <p class="text-[#F85559] text-[18px] font-bold text-center">Detail</p>
+
+                    </div>
+                </div>
+
+                <!-- fruit card four  -->
+
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure><img src="./images/fruit9.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h3 class=" text-2xl font-bold text-center mb-9">12.90$ - 18.85$</h3>
+                        <p class="text-base font-medium text-center mb-6">Apple</p>
+                        <div class="rating rating-lg rating-half flex justify-center mb-8">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                                checked />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        </div>
+
+                        <p class="text-[#F85559] text-[18px] font-bold text-center">Detail</p>
+
+                    </div>
+                </div>
                 
             </div>
+            <div class="flex justify-center mt-12">
+                <button class="btn  bg-[#F85559] border-0 text-white text-xl font-extrabold">Shop All</button>
+            </div>
+        
+        </section>
 
+        <!-- meet our team part  -->
+        <section class="mb-24">
+            <div class="hero min-h-[70vh] bg-cover" style="background-image: url('./images/banner1.png'); background-size: cover;">
+                <div class="hero-overlay bg-opacity-55"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="">
+                    <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                    <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+                        <div class="text-center">
+                            <img class="mb-8" src="./images/member1.png" alt="">
+                            <h4 class="text-2xl font-bold mb-2">Awlad Hossain</h4>
+                            <p class="text-base font-medium">Fruits Expert</p>
+                        </div>
+                        <div class="text-center">
+                            <img class="mb-8" src="./images/member2.png" alt="">
+                            <h4 class="text-2xl font-bold mb-2">Awlad Hossain</h4>
+                            <p class="text-base font-medium">Fruits Expert</p>
+                        </div  class="text-center">
+                        <div  class="text-center">
+                            <img class="mb-8" src="./images/member3.png" alt="">
+                            <h4 class="text-2xl font-bold mb-2">Awlad Hossain</h4>
+                            <p class="text-base font-medium">Fruits Expert</p>
+                        </div>
+                        <div  class="text-center">
+                            <img class="mb-8" src="./images/member4.png" alt="">
+                            <h4 class="text-2xl font-bold mb-2">Awlad Hossain</h4>
+                            <p class="text-base font-medium">Fruits Expert</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </section>
     </main>
 
